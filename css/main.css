@@ -1,0 +1,721 @@
+.letras{
+    font-size: 11px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 573px;
+    font-family: 'Franklin Gothic Medium';
+}
+.cabeçalho{
+    background-color: #004c6d;
+    height: 150px;
+    margin: -8px;
+}
+.info{
+    background-color: #dbdbdb;
+    height: 34px;
+    position: relative;
+    margin-top: -150px;
+    margin-left: -8px;
+    margin-right: -8px
+}
+#menu ul li{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    margin-left: 39px;
+    top: -2px;
+    left: 100px;
+}
+#menu ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial;
+}
+#menu ul li img{
+    position: relative;
+    margin-top: 9px;
+    margin-left: -21px;
+    left: -4px;
+    top: 3px;
+}
+#login ul li{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    margin-left: 39px;
+    top: -36px;
+    left: 927px;
+}
+#login ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial;
+}
+#login ul li img{
+    position: relative;
+    margin-top: -25px;
+    margin-left: -21px;
+    left: -4px;
+    top: 3px;
+}
+.campoBusca{
+    position: relative;
+    left: 487px;
+    top: 83px;
+    border: none;
+    width: 337px;
+    height: 13px;
+    color: #4F4F4F;
+    font-size: 14px;
+    font-family: Arial;
+    padding: 9px;
+    border-radius: 4px 0px 0px 4px;
+}
+.pesquisa{
+    height: 38px;
+    width: 33px;
+    position: relative;
+    background-color: #ffffff;
+    left: 483px;
+    top: 83px;
+    border: none;
+    padding: 7px;
+    border-radius: 0px 4px 4px 0px;
+}
+.buscar{
+    width: 15px;
+}
+.buscar:hover{
+    cursor: pointer;
+}
+.todos{
+    width: 111px;
+    margin-left: 1111px;
+    margin-top: 52px;
+}
+.compras{
+    position: relative;
+    width: 40px;
+    height: 31px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #1e90ff;
+}
+.compras:hover{
+    cursor: pointer;
+    background-color: #089bd6;
+}
+/*----------------------------Parte do slider principal----------------------------------------*/
+.sliderPrincipal{
+    position: absolute;
+    height: 142px !important;
+    width: 1128px;
+    margin-left: 107px;
+    margin-top: 103px;
+}
+button.slick-next{
+    width: 25px;
+    height: 64px;
+    font-size: 0px;
+    position: absolute;
+    border: none;
+    z-index: 9;
+    background-image: url('../imagens/direita.png');
+    margin-left: 1103px;
+    margin-top: -189px;
+    background-color: transparent;
+}
+button.slick-next:hover{
+    cursor: pointer;
+    width: 50px;
+    margin-left: 1078px;
+}
+button.slick-prev{
+    width: 25px;
+    height: 64px;
+    font-size: 0px;
+    position: absolute;
+    border: none;
+    z-index: 9;
+    background-image: url('../imagens/direita.png');
+    margin-top: 132px;
+    background-color: transparent;
+    transform: rotate(180deg);
+}
+button.slick-prev:hover{
+    cursor: pointer;
+    width: 50px;
+}
+.slick-dots li button{
+    padding: 2px;
+    width: 24px;
+    height: 7px;
+    font-size: 0px;
+    border-style: none;
+    background-color: #d4d4d4;
+    margin-left: -5px;
+}
+li.slick-active button{
+    background-color: #004c6d;
+}
+.slick-dots li{
+    margin-left: 10px;
+    display: inline-block;
+}
+.slick-dots{
+    margin-left: 405px;
+    margin-top: -5px;
+}
+/*----------------------------Parte do auditorio virtual----------------------------------------*/
+.auditorio{
+    width: 287px;
+    height: 54px;
+    margin-left: 106px;
+    margin-top: 216px;
+    border: none;
+    background-color: #00a6e8;
+    border-radius: 8px;
+}
+.auditorio:hover{
+    cursor: pointer;
+    background-color: #089bd6;
+}
+.camera{
+    margin-left: -237px;
+    margin-top: 9px;
+}
+.nPrincipal{
+    left: -37px;
+    margin-top: -21px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: Arial;
+    position: relative;
+}
+.nSecundario{
+    margin-left: 144px;
+    margin-top: -4px;
+    font-size: 9px;
+    color: #ffffff;
+    font-family: Arial;
+}
+/*----------------------------Parte das redes sociais----------------------------------------*/
+.redesSociais{
+    width: 283px;
+    height: 54px;
+    background-color: #f8f8f8;
+    margin-left: 106px;
+    margin-top: 23px;
+    border-style: solid;
+    border-color: #d0d7e0;
+    border-width: 2px;
+}
+#redes ul{
+    margin-left: 119px;
+    margin-top: -35px;
+}
+#redes ul li{
+    display: inline;
+    margin-left: 5px;
+}
+.tRedes{
+    margin-left: 6px;
+    margin-top: 18px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #72728a;
+}
+/*----------------------------Parte do segundo slider----------------------------------------*/
+.carrosV{
+    background-color: #f8f8f8;
+    height: 324px;
+    width: 820px;
+    margin-left: 411px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+}
+.carrosVendas{
+    height: 246px;
+    width: 740px;
+    background-color: #f8f8f8;
+    top: 27px;
+    left: 36px;
+}
+.vCarros{
+    height: 237px !important;
+    width: 174px !important;
+    background-color: #f8f8f8;
+    border-style: solid;
+    border-color: #d5d4d4;
+    margin-left: 7px;
+    border-width: 2px;
+}
+.vCarros:hover{
+    cursor: pointer;
+    background-color: #e7f2f2;
+}
+.imgCarro{
+    border-style: none;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.nomeCarro{
+    font-size: 9px;
+    margin-top: 10px;
+    margin-left: 4px;
+    color: #004c6d;
+    font-family: Arial;
+}
+.valorCarro{
+    font-size: 14px;
+    margin-top: 51px;
+    margin-left: 4px;
+    color: #00a6e8;
+    font-family: 'Franklin Gothic Medium';
+}
+.lance{
+    font-size: 12px;
+    margin-top: -12px;
+    margin-left: 4px;
+    color:#7272a3;
+    font-family: Arial;
+}
+.favorit{
+    position: absolute;
+    margin-left: 148px;
+    margin-top: -32px;
+    background-color: #00a6e8;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.favorit:hover{
+    cursor: pointer;
+    background-color: #089bd6;
+}
+.favorit img{
+    margin-left: -3px;
+}
+.destaques{
+    height: 37px;
+    margin-top: -14px;
+    background-color: #004c6d;
+}
+.des{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium';
+    padding: 8px;
+}
+/*----------------------------Parte do aviso----------------------------------------*/
+.aviso{
+    width: 824px;
+    height: 353px;
+    margin-top: -159px;
+    margin-left: 411px;
+    background-color: #004c6d;
+}
+.aviso:hover{
+    cursor: pointer;
+}
+.Lavisos{
+    font-size: 30px;
+    font-family: Verdana;
+    margin-left: 8px;
+    padding: 5px;
+    color: #ffffff;
+}
+/*----------------------------Parte dos materiais----------------------------------------*/
+.mat{
+    width: 283px;
+    height: 227px;
+    background-color: #f8f8f8;
+    margin-top: -559px;
+    margin-left: 106px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+}
+.matp{
+    font-size: 12px;
+    font-family: Arial;
+    color: #626f8f;
+    margin-left: 90px;
+    margin-top: 6px;
+}
+#materiais ul {
+    list-style-type: none;
+    margin-top: -2px;
+} 
+#materiais ul li button{
+    width: 271px;
+    height: 35px;
+    margin-left: -34px;
+    margin-top: 3px;
+    border-style: none;
+}
+#materiais ul li button:hover{
+    cursor: pointer;
+}
+#materiais ul li button img{
+    margin-left: -225px;
+    margin-top: 5px;
+}
+.noMat{
+    margin-left: -121px;
+    margin-top: -23px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+.quant{
+    margin-left: 219px;
+    margin-top: -27px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+#v{
+    background-color: #f7931d;
+}
+#v:hover{
+    background-color: #db841c;
+}
+#s{
+    background-color: #f15922;
+}
+#s:hover{
+    background-color: #d85221;
+}
+#m{
+    background-color: #8cc63e;
+}
+#m:hover{
+    background-color: #77ae2c;
+}
+#i{
+    background-color: #782a90;
+}
+#i:hover{
+    background-color: #69267e;
+}
+#j{
+    background-color: #ffcb04;
+}
+#j:hover{
+    background-color: #e2b406;
+}
+/*----------------------------Parte do drop drow----------------------------------------*/
+.local{
+    width: 825px;
+    height: 2504px;
+    margin-left: 411px;
+    margin-top: 367px;
+}
+.agenda{
+    width: 407px;
+    height: 44px;
+    margin-left: 0px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #004c6d;
+}
+.agenda:hover{
+    cursor: pointer;
+    background-color: #023c55;
+}
+.encerrados{
+    width: 407px;
+    height: 44px;
+    margin-left: 7px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #004c6d;
+}
+.encerrados:hover{
+    cursor: pointer;
+    background-color: #023c55;
+}
+.quantdd{
+    margin-left: 262px;
+    margin-top: -16px;
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+.quantde{
+    margin-left: 265px;
+    margin-top: -16px;
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+#filtro ul{
+    margin-left: -40px;
+}
+#filtro ul li{
+    float: left;
+    margin-left: 1px;
+    background-color: #dbdbdb;
+    display: inline-block;
+    width: 162px;
+    height: 36px;
+    border-width: 1px;
+    border-color: #ababab;
+    border-style: groove;
+    margin-top: -3px;
+    position: relative;
+}
+#filtro ul li:hover{
+    cursor: pointer;
+    background-color: #004c6d;
+    color: #ffffff;
+}
+#filtro ul li:hover > p{
+    color: #ffffff;
+}
+#filtro ul li:hover > input{
+    cursor: pointer;
+    background-color: #004c6d;
+    color: #ffffff;
+}
+#filtro ul li p{
+    width: 110px;
+    margin-left: 13px;
+    margin-top: 9px;
+    font-size: 14px;
+    color: #004c6d;
+    font-family: 'Franklin Gothic Medium';
+}
+#filtro ul li input{
+    width: 32px;
+    height: 15px;
+    color: #004c6d;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 125px;
+    margin-top: -31px;
+    position: absolute;
+    border: none;
+    background-color: #dbdbdb;
+}
+#filtro ul li ul{
+    margin-left: -20px;
+    margin-top: 14px;
+}
+#filtro ul ul{
+    display: none;
+}
+#filtro ul li:hover > ul{
+    display: block;
+}
+#camposReg ul{
+    margin-left: -52px;
+    margin-top: -14px;
+}
+#camposReg ul li{
+    display: inline-block;
+}
+#camposReg ul li div{
+    background-color: #f8f8f8;
+    width: 189px;
+    height: 219px;
+    margin-left: 13px;
+    margin-top: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+}
+#camposReg ul li div button{
+    width: 189px;
+    height: 34px;
+    margin-top: 30px;
+    background-color: #46829c;
+    border-style: none;
+}
+#camposReg ul li div button:hover{
+    cursor: pointer;
+    background-color: #306880;
+}
+#camposReg ul li div button p{
+    margin-left: 12px;
+    margin-top: 9px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+#camposReg ul li div button img{
+    margin-left: -79px;
+    margin-top: 9px;
+}
+#titulo{
+    width: 183px;
+    height: 11px;
+    font-size: 14px;
+    color: #727272;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    border: none;
+    background-color: #f8f8f8;
+}
+#tipo{
+    width: 91px;
+    height: 11px;
+    font-size: 12px;
+    color: #34a6ef;
+    font-family: 'Franklin Gothic Medium';
+    text-align: right;
+    border: none;
+    background-color: #f8f8f8;
+    margin-top: 69px;
+    margin-left: 2px;
+}
+#quantidade{
+    width: 54px;
+    height: 11px;
+    font-size: 12px;
+    color: #34a6ef;
+    font-family: 'Franklin Gothic Medium';
+    border: none;
+    background-color: #f8f8f8;
+    margin-top: 15px;
+    margin-left: -4px;
+    text-align: center;
+}
+#camposReg ul li div img{
+    margin-left: -108px;
+    margin-top: 36px;
+    position: absolute;
+}
+#numLeilao, #dataHora, #local{
+    width: 164px;
+    height: 11px;
+    font-size: 12px;
+    color: #727272;
+    font-family: 'Franklin Gothic Medium';
+    border: none;
+    background-color: #f8f8f8;
+    margin-top: -1px;
+    margin-left: 11px;
+    text-align: center;
+}
+.categorias{
+    width: 283px;
+    height: 678px;
+    margin-left: 106px;
+    margin-top: -2844px;
+    background-color: #f8f8f8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+    position: absolute;
+}
+.categ{
+    width: 283px;
+    height: 37px;
+    margin-left: 0px;
+    margin-top: -16px;
+    background-color: #004c6d;
+}
+.categ p{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+}
+.tCat{
+    color: #00acc8;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 187px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.tCat:hover{
+    text-decoration: underline;
+}
+.camCta{
+    background-color: #dbdbdb;
+    width: 283px;
+    height: 33px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+    margin-left: -2px;
+    margin-top: 13px;
+}
+.camCta p{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 8px;
+    color: #727272;
+    margin-top: 9px;
+}
+/*----------------------------------*/
+.catGlo{
+    background-color: #f8f8f8;
+    width: 283px;
+    height: 167px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+    margin-left: -2px;
+    margin-top: -2px;
+    position: relative;
+}
+#catTip ul{
+    margin-top: 14px;
+}
+#catTip ul li{
+    display: inline-block;
+    margin-top: 2px;
+}
+#catTip ul li button{
+    width: 287px;
+    height: 37px;
+    background-color: #f8f8f8;
+    margin-left: -42px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d4d4;
+    margin-top: -18px;
+}
+#catTip ul li button:hover{
+    cursor: pointer;
+    background-color: #e7f2f2;
+}
+#catTip ul li button:hover > input{
+    cursor: pointer;
+    background-color: #e7f2f2;
+}
+#catTip ul li button input{
+    margin-left: 224px;
+    top: -24px;
+    width: 40px;
+    height: 10px;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    color: #004c6d;
+    font-family: 'Franklin Gothic Medium';
+    border-style: none;
+    background-color: #f8f8f8;
+}
+#catTip ul li button p{
+    width: 186px;
+    height: 10px;
+    margin-left: 3px;
+    margin-top: 9px;
+    text-align: initial;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 12px;
+    color: #004c6d;
+}
+.consertardois{
+    margin-top: -15px;
+}
+.consertartres{
+    margin-top: -15px;
+}
